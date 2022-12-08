@@ -1,0 +1,184 @@
+@font-face {
+	font-family: Karla;
+ 	src: url(../fonts/Karla-Regular.ttf);
+        
+}
+
+html {
+	font-family: Karla;
+}
+
+/*body {
+	margin: 0px 10px 0px 10px;
+	width: 100%;
+}*/
+
+
+
+.container {
+	width: 100%;
+}
+
+.menu-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 28px;
+	padding-bottom: 28px;
+
+}
+
+.menu-list {
+	display: flex;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+.menu-list li {
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+
+.menu-list a {
+	color: #1D1F2E;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+
+}
+
+
+.menu-list a:hover {
+	opacity: 0.5;
+}
+
+
+/*.r1 {
+	display: flex;
+}
+
+.yel1 {
+	background: yellow;
+	width: 70px;
+	min-height: 50px;
+
+}
+
+.yel2 {
+	background: green;
+	width: 70px;
+	min-height: 50px;
+
+}
+.yel3 {
+	background: red;
+	width: 70px;
+	min-height: 50px;
+
+} */
+
+.r2 {
+	display: flex;
+	
+	position: relative;
+}
+
+.baner1 {
+	width: 220px;
+	height: 530px;
+	background: #050827;
+}
+
+.baner2 {
+	width: 940px;
+	height: 530px;
+	background: url('../images/baner-2.png');
+	font-family: Karla;
+	align-content: center;
+	
+
+
+}
+
+
+.baner3 {
+	width: 220px;
+	height: 530px;
+	background: #050827;
+}
+
+.text1 p {
+	color: white;
+	height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding-left: 368px;
+	padding-top: 159px;
+	line-height: 18px;
+	
+
+}
+
+.text2  {
+	color: white;
+	height: 60px;
+	letter-spacing:;
+	font-size: 47px;
+	padding-left: 337px;
+	padding-top: 10px;
+	text-transform: capitalize;
+	line-height: 60px;
+
+}
+
+.text3 p{
+	color: white;
+	height: 30px;
+	font-size: 17px;
+	line-height: 30px;
+	padding-top: 20px;
+	padding-left: 74px;
+
+}
+
+.text4 p{
+	width: 231px;
+	height: 18px;
+	background: #FFFFFF;
+	font-size: 12px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0px 24px 2px 24px;
+	line-height: 18px;
+	padding-top:;
+
+}
+
+.t4 {
+	padding-top: 50px;
+	padding-left: 355px;
+	height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

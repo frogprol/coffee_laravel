@@ -1,0 +1,107 @@
+@font-face {
+	font-family: Karla;
+ 	src: url(../fonts/Karla-Regular.ttf);
+        
+}
+
+body {
+	font-family: Karla;
+}
+
+/*body {
+	margin: 0px 10px 0px 10px;
+	width: 100%;
+}*/
+
+
+
+.container {
+	width: 100%;
+}
+
+.menu-block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 28px;
+	padding-bottom: 28px;
+
+}
+
+.menu-list {
+	display: flex;
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+.menu-list li {
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+
+.menu-list a {
+	color: #1D1F2E;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+
+}
+
+
+.menu-list a:hover {
+	opacity: 0.5;
+}
+
+
+
+.top-banner {
+	height: 530px;
+	margin-left: 30px;
+	margin-right: 30px;
+	color: white;
+	background-color: #050827;
+	background-image: url('../images/baner2_2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.top-banner-subtitle {
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.top-bannet-title {
+	font-size: 47px;
+	line-height: 60px;
+	margin-bottom: 10px;
+}
+.top-banner-text {
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 48px;
+}
+.top-banner-block {
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: white;
+	color: black;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+
+
